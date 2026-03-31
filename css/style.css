@@ -1,0 +1,174 @@
+html{
+
+scroll-behavior:smooth;
+
+}
+
+
+
+body{
+
+    font-family: Arial;
+
+    margin:0;
+
+    background:#f4f6fb;
+
+    text-align:center;
+
+}
+
+
+header{
+
+    background:#263169;
+
+    color:white;
+
+    padding:40px;
+
+}
+
+
+section{
+
+    padding:30px;
+
+}
+
+
+div{
+
+    margin:10px;
+
+}
+
+
+h2{
+
+    color:#263169;
+
+}
+
+
+
+
+.college-container{
+
+display:flex;
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+}
+
+
+.college-card{
+
+background:white;
+
+padding:20px;
+
+width:250px;
+
+border-radius:10px;
+
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+margin:15px;
+
+transition:0.3s;
+
+}
+
+
+.college-card:hover{
+
+transform:translateY(-5px);
+
+}
+
+
+
+
+
+nav{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+background:#1f2a5a;
+
+color:white;
+
+padding:15px 40px;
+
+}
+
+
+.nav-links{
+
+list-style:none;
+
+display:flex;
+
+}
+
+
+.nav-links li{
+
+margin-left:20px;
+
+}
+
+
+.nav-links a{
+
+color:white;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+
+.hero{
+
+background:#263169;
+
+color:white;
+
+padding:80px 20px;
+
+}
+
+
+.hero button{
+
+background:white;
+
+color:#263169;
+
+border:none;
+
+padding:10px 20px;
+
+margin-top:15px;
+
+border-radius:5px;
+
+cursor:pointer;
+
+}
+
+
+.hero button:hover{
+
+background:#e6e9ff;
+
+}
