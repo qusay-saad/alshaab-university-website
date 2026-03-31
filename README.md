@@ -1,4 +1,4 @@
-# AlShaab University Website
+# AlShaab University Website v0.1
 
 This is a beginner university website project built to learn:
 
