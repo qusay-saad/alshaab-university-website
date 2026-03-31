@@ -4,7 +4,8 @@
   "description": "This is a beginner university website project built to learn:",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
