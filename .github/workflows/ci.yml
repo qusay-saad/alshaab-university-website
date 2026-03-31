@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Verify server file exists
+      - name: Verify server file
         run: node -e "require('./server.js')"
 
         
