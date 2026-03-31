@@ -1,0 +1,23 @@
+{
+  "name": "alshaabuniversitywebsite",
+  "version": "1.0.0",
+  "description": "This is a beginner university website project built to learn:",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qusay-saad/alshaab-university-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qusay-saad/alshaab-university-website/issues"
+  },
+  "homepage": "https://github.com/qusay-saad/alshaab-university-website#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
