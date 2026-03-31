@@ -4,6 +4,10 @@ on:
   push:
     branches: [ main ]
 
+permissions:
+  contents: read
+  packages: write
+
 jobs:
 
   build:
@@ -26,5 +30,13 @@ jobs:
       - name: Run tests
         run: npm test
 
+      - name: Login to GitHub Container Registry
+        run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+
       - name: Build Docker image
-        run: docker build -t alshaab-site .
+        run: |
+          docker build -t ghcr.io/${{ github.repository }}/alshaab-site:latest .
+
+      - name: Push Docker image
+        run: |
+          docker push ghcr.io/${{ github.repository }}/alshaab-site:latest
